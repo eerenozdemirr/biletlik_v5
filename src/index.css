@@ -1,0 +1,41 @@
+/* Genel stil ayarları */
+
+body {
+  font-family: 'Lexend', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Genel arka plan rengi */
+}
+
+/* Linkler için temel stil ayarları */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Genel buton stilleri */
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+/* Flex container ayarları */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}

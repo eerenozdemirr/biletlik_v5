@@ -1,0 +1,45 @@
+/* PRODUCT OVERLAY */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Bulanık arka plan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Üstte olmasını sağlamak için */
+  }
+  
+  .overlay-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 90%;
+    width: 400px;
+  }
+  
+  .overlay-content p {
+    font-size: 18px;
+    color: #352F44;
+    margin-bottom: 20px;
+  }
+  
+  .overlay-button {
+    background-color: #5C5470;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay-button:hover {
+    background-color: #352F44;
+  }
+  

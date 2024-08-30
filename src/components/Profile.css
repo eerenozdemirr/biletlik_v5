@@ -1,0 +1,78 @@
+/* Profil sayfasına özel body stili */
+body.profile-page {
+  background-color: #ffffff; /* Profil sayfasının arka planı beyaz */
+  margin: 0;
+}
+
+/* Profil sayfası kapsayıcısının stili */
+.profile-container {
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff; /* Profil sayfası arka planı beyaz */
+  border-radius: 0; /* Kenar yuvarlatmalarını kaldırdık */
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.logo {
+  font-size: 40px;
+  color: #352F44;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e0e0e0; /* Placeholder rengi */
+  object-fit: cover;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #352F44; /* Renk uyumunu sağlamak için başlığa renk verdik */
+}
+
+.profile-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
